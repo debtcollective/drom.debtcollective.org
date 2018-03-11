@@ -32,14 +32,14 @@
 	<meta name="DC.creator" content="Folks from Strike Debt">
 
 	<!--  Mobile Viewport meta tag
-	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
 	device-width : Occupy full width of the screen in its current orientation
 	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
 	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width -->
 	<!-- Uncomment to use; use thoughtfully!-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<link rel="apple-touch-icon" href="http://strikedebt.org/wp-content/themes/strikedebt/_/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="http://strikedebt.org/static/_/img/apple-touch-icon.png">
 	<!-- The is the icon for iOS's Web Clip.
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
@@ -50,18 +50,16 @@
 	<script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
 
 	<!-- CSS: screen, mobile & print are all in the same file -->
-	<link rel="stylesheet" href="/drom/static/style.css">
-	<link rel="stylesheet" href="/drom/static/icons.css">
-	<link rel="stylesheet" href="/drom/static/drom.css">
-
-	<link rel="pingback" href="http://strikedebt.org/xmlrpc.php" />
+	<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/icons.css">
+	<link rel="stylesheet" href="/static/drom.css">
 
 
-	<link rel="alternate" type="application/rss+xml" title="Strike Debt! &raquo; Feed" href="../../feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Strike Debt! &raquo; Comments Feed" href="../../comments/feed/index.html"
-	/>
-	<link rel="alternate" type="application/rss+xml" title="Strike Debt! &raquo; Introduction Comments Feed" href="/drom/introduction/feed/"
-	/>
+
+
+
+
+
 	<script type="text/javascript">
 		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/", "ext": ".png", "source": { "concatemoji": "http:\/\/strikedebt.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.14" } };
 		!function (a, b, c) { function d(a) { var c, d, e, f = b.createElement("canvas"), g = f.getContext && f.getContext("2d"), h = String.fromCharCode; return g && g.fillText ? (g.textBaseline = "top", g.font = "600 32px Arial", "flag" === a ? (g.fillText(h(55356, 56806, 55356, 56826), 0, 0), f.toDataURL().length > 3e3) : "diversity" === a ? (g.fillText(h(55356, 57221), 0, 0), c = g.getImageData(16, 16, 1, 1).data, g.fillText(h(55356, 57221, 55356, 57343), 0, 0), c = g.getImageData(16, 16, 1, 1).data, e = c[0] + "," + c[1] + "," + c[2] + "," + c[3], d !== e) : ("simple" === a ? g.fillText(h(55357, 56835), 0, 0) : g.fillText(h(55356, 57135), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0])) : !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g; c.supports = { simple: d("simple"), flag: d("flag"), unicode8: d("unicode8"), diversity: d("diversity") }, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
@@ -80,17 +78,15 @@
 			padding: 0 !important;
 		}
 	</style>
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js?ver=4.4.14'></script>
-	<link rel='https://api.w.org/' href='../../wp-json/index.html' />
-	<link rel='next' title='Chapter Five' href='/drom/chapter-five' />
-	<link rel="canonical" href="/drom/introduction" />
-	<link rel='shortlink' href='/drom/introduction' />
-	<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed?url=http:%252F%252Fstrikedebt.org%252Fdrom%252Fintroduction%252F"
-	/>
-	<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed?url=http:%252F%252Fstrikedebt.org%252Fdrom%252Fintroduction%252F&amp;format=xml"
-	/>
 
-	<link rel="stylesheet" href="/drom/static/last-css-loaded.css">
+
+	<link rel='next' title='Chapter Five' href='/chapter-five' />
+	<link rel="canonical" href="/introduction" />
+	<link rel='shortlink' href='/introduction' />
+
+
+
+	<link rel="stylesheet" href="/static/last-css-loaded.css">
 
 </head>
 
@@ -102,10 +98,10 @@
 				<span class="hamburger"></span>Menu</a>
 
 			<a href="http://stikedebt.org" id="project-of">
-				<img src="/drom/static/_/drom_square.png" alt="Strike Debt!" id="title" /> A Project of Strike Debt </a>
+				<img src="/static/_/drom_square.png" alt="Strike Debt!" id="title" /> A Project of Strike Debt </a>
 
 			<h3>
-				<a href="/drom">The Debt Resisters&rsquo; Operations Manual</a>
+				<a href="/">The Debt Resisters&rsquo; Operations Manual</a>
 			</h3>
 		</div>
 
@@ -116,72 +112,72 @@
 
 		<ol>
 			<li>
-				<a href="/drom/introduction">
+				<a href="/introduction">
 					<span class="chapter-num">Introduction</span>Debt Rules Everything Around Me</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-one">
+				<a href="/chapter-one">
 					<span class="chapter-num">Chapter One</span>Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-two">
+				<a href="/chapter-two">
 					<span class="chapter-num">Chapter Two</span>Credit Card and Automobile Debt: On the Road to Nowhere</a>
 			</li>
 			<div id="currentSubmenu"></div>
 			<li>
-				<a href="/drom/chapter-three">
+				<a href="/chapter-three">
 					<span class="chapter-num">Chapter Three</span>Medical Debt: America’s Sick Creation</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-four">
+				<a href="/chapter-four">
 					<span class="chapter-num">Chapter Four</span>Student Debt: Foreclosing on the Future</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-five">
+				<a href="/chapter-five">
 					<span class="chapter-num">Chapter Five</span>Housing Debt: How the American Dream Became a Bait-and-Switch Nightmare</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-six">
+				<a href="/chapter-six">
 					<span class="chapter-num">Chapter Six</span>Tax Debt: The Certainty of Debt and Taxes</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-seven">
+				<a href="/chapter-seven">
 					<span class="chapter-num">Chapter Seven</span>Fringe Finance Transaction Products and Services: Making Bank on the Unbanked</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-eight">
+				<a href="/chapter-eight">
 					<span class="chapter-num">Chapter Eight</span>Fringe Finance Credit Products and Services: Credit for the Precariat</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-nine">
+				<a href="/chapter-nine">
 					<span class="chapter-num">Chapter Nine</span>Debt Collection: Don’t Feed the Vultures</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-ten">
+				<a href="/chapter-ten">
 					<span class="chapter-num">Chapter Ten</span>Bankruptcy: It’s Better Than Nothing</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-eleven">
+				<a href="/chapter-eleven">
 					<span class="chapter-num">Chapter Eleven</span>Strategies for Survival: Living on the Margins of the Debt System</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-twelve">
+				<a href="/chapter-twelve">
 					<span class="chapter-num">Chapter Twelve</span>Municipal and State Debt: Crushing Debt from Above</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-thirteen">
+				<a href="/chapter-thirteen">
 					<span class="chapter-num">Chapter Thirteen</span>National Debt: The Politics of Scarcity and Control</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-fourteen">
+				<a href="/chapter-fourteen">
 					<span class="chapter-num">Chapter Fourteen</span>Climate Debt: An Overdue Balance</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-fifteen">
+				<a href="/chapter-fifteen">
 					<span class="chapter-num">Chapter Fifteen</span>Prospects for Change: Join the Resistance!</a>
 			</li>
 			<li>
-				<a href="/drom/glossary">
+				<a href="/glossary">
 					<span class="chapter-num">Glossary</span>
 				</a>
 			</li>
@@ -201,12 +197,12 @@
 		<nav class="chapters" id="side">
 
 
-			<a href="/drom/glossary" class="previous">
+			<a href="/glossary" class="previous">
 				<i class="icon-arrow-left"></i>
 				<span class="chapter-num">Glossary</span>
 			</a>
 
-			<a href="/drom/chapter-one" class="next">
+			<a href="/chapter-one" class="next">
 				<i class="icon-arrow-right"></i>
 				<span class="chapter-num">Chapter One</span>Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt</a>
 
@@ -317,7 +313,7 @@
 					“employable.” In other words, prospective employers look to see whether or not your personal circumstances will affect
 					your work or if you have a history of being “financially imprudent.” Credit scores are often the determining factor,
 					and more will be discussed about this in
-					<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/drom/chapter-one"
+					<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/chapter-one"
 					 target="_blank">Chapter One</a>. The extent to which people are affected by precarity and wage stagnation is greatly informed by their
 					gender, race, sexuality, and ability. Women across the globe continue to comprise
 					<a title="“Global Action against Precarious Work”" href="http://tinyurl.com/DROMIMF2" target="_blank">the majority of precarious workers</a>. On average, in the United States, women are paid less than men, and women of
@@ -414,7 +410,7 @@
 					requires more careful attention. As will be demonstrated throughout this book, all aspects of the debt system maintain
 					and exacerbate already existing social inequalities, in the United States and internationally. Credit scores (
 					<i>see
-						<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/drom/chapter-one"
+						<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/chapter-one"
 						 target="_blank">Chapter One</a>
 					</i>) are not only used in determining access to credit, but these
 					<a title="“Credit Scoring and Insurance: Costing Consumers Billions and Perpetuating the Economic Racial Divide”" href="http://tinyurl.com/DROMWu"
@@ -423,14 +419,14 @@
 					of color—a deregulated lending market has set up shop with exorbitantly expensive products and services like payday
 					loans and check-cashing outlets (
 					<i>see Chapters
-						<a title="Chapter Seven. Fringe Finance Transaction Products and Services: Making Bank on the Unbanked" href="/drom/chapter-seven"
+						<a title="Chapter Seven. Fringe Finance Transaction Products and Services: Making Bank on the Unbanked" href="/chapter-seven"
 						 target="_blank">Seven</a> and
-						<a title="Chapter Eight. Fringe Finance Credit Products and Services: Credit for the Precariat" href="/drom/chapter-eight"
+						<a title="Chapter Eight. Fringe Finance Credit Products and Services: Credit for the Precariat" href="/chapter-eight"
 						 target="_blank">Eight</a>
 					</i>), ensuring that the poor continue to get even poorer. And in the global South, the World Bank and International Monetary
 					Fund impose structural adjustment programs under the guise of helping governments pay their debts (
 					<i>see
-						<a title="Chapter Thirteen. National Debt: The Politics of Scarcity and Control" href="/drom/chapter-thirteen" target="_blank">Chapter Thirteen</a>
+						<a title="Chapter Thirteen. National Debt: The Politics of Scarcity and Control" href="/chapter-thirteen" target="_blank">Chapter Thirteen</a>
 					</i>). It is against this backdrop that Jamaica
 					<a title="“Jamaica’s Decades of Debt Are Damaging Its Future”" href="http://tinyurl.com/DROMDearden" target="_blank">spends more than twice on debt repayment</a> than what it does on education and health combined. Among many African
 					countries, the result of structural adjustment is the privatization of land, the displacement of subsistence farmers,
@@ -490,7 +486,7 @@
 					debt. Prisons are continually filled with impoverished people, giving life to a cycle of poverty and imprisonment that
 					is hard to escape (
 					<i>see
-						<a title="Chapter Nine. Debt Collection: Don’t Feed the Vultures" href="/drom/chapter-nine" target="_blank">Chapter Nine</a>
+						<a title="Chapter Nine. Debt Collection: Don’t Feed the Vultures" href="/chapter-nine" target="_blank">Chapter Nine</a>
 					</i>).</p>
 				<h2 class="submenu">About Strike Debt</h2>
 				<p>This operations manual is written by an anonymous collective from Strike Debt. For over a year now, Strike Debt has been
@@ -547,11 +543,11 @@
 					accountants, and other experts, and we have done our best to incorporate those suggestions into this edition. We have
 					expanded upon each of the original chapters and have written four new ones (
 					<i>Chapters
-						<a title="Chapter Six. Tax Debt: The Certainty of Debt and Taxes" href="/drom/chapter-six" target="_blank">Six</a>,
-						<a title="Chapter Eleven. Strategies for Survival: Living on the Margins of the Debt System" href="/drom/chapter-eleven"
+						<a title="Chapter Six. Tax Debt: The Certainty of Debt and Taxes" href="/chapter-six" target="_blank">Six</a>,
+						<a title="Chapter Eleven. Strategies for Survival: Living on the Margins of the Debt System" href="/chapter-eleven"
 						 target="_blank">Eleven</a>,
-						<a title="Chapter Thirteen. National Debt: The Politics of Scarcity and Control" href="/drom/chapter-thirteen" target="_blank">Thirteen</a>, and
-						<a title="Chapter Fourteen. Climate Debt: An Overdue Balance" href="/drom/chapter-fourteen" target="_blank">Fourteen</a>
+						<a title="Chapter Thirteen. National Debt: The Politics of Scarcity and Control" href="/chapter-thirteen" target="_blank">Thirteen</a>, and
+						<a title="Chapter Fourteen. Climate Debt: An Overdue Balance" href="/chapter-fourteen" target="_blank">Fourteen</a>
 					</i>). We have endeavored to place greater emphasis on strategies for collective action and alternatives to relying on the
 					debt system for meeting basic needs.</p>
 				<h2 class="submenu">A General Outline, Chapter by Chapter</h2>
@@ -563,61 +559,61 @@
 					forms of debt to the “macro,” or in other words, the types of debt people directly experience everyday to the more abstract
 					forms of debt that people think about less, but nonetheless affect their everyday life. This manual begins, then, with
 					one of the manifestations of debt, of which many people are aware: credit reporting agencies and credit scores (
-					<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/drom/chapter-one"
+					<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/chapter-one"
 					 target="_blank">
 						<i>Chapter One</i>
 					</a>). In the first chapter we explain the role of credit reporting agencies (CRAs) and credit scores in people’s lives.
 					In
-					<a title="Chapter Two. Credit Card and Automobile Debt: On the Road to Nowhere" href="/drom/chapter-two" target="_blank">Chapter Two</a> we move on to credit card debt and automobile debt—two of the most common forms of consumer debt. In
+					<a title="Chapter Two. Credit Card and Automobile Debt: On the Road to Nowhere" href="/chapter-two" target="_blank">Chapter Two</a> we move on to credit card debt and automobile debt—two of the most common forms of consumer debt. In
 					this chapter we briefly explain the history and role of credit cards, as well as provide a wider explanation as to why
 					so many people are reliant on credit to survive. Cars are the primary means by which most people travel, yet most households
 					cannot purchase and maintain them without incurring debt. We then go on to medical debt (
-					<a title="Chapter Three. Medical Debt: America’s Sick Creation" href="/drom/chapter-three" target="_blank">
+					<a title="Chapter Three. Medical Debt: America’s Sick Creation" href="/chapter-three" target="_blank">
 						<i>Chapter Three</i>
 					</a>) and student debt (
-					<a title="Chapter Four. Student Debt: Foreclosing on the Future" href="/drom/chapter-four" target="_blank">
+					<a title="Chapter Four. Student Debt: Foreclosing on the Future" href="/chapter-four" target="_blank">
 						<i>Chapter Four</i>
 					</a>)—two forms of debt that have become increasingly common in the United States. Chapter Three lays out the current state
 					of health care in the United States and offers strategies for challenging medical bills. Chapter Four explains the ins
 					and outs of student debt, who profits from it, how you can survive with student debt, and the fight for free higher
 					education. In
-					<a title="Chapter Five. Housing Debt: How the American Dream Became a Bait-and-Switch Nightmare" href="/drom/chapter-five"
+					<a title="Chapter Five. Housing Debt: How the American Dream Became a Bait-and-Switch Nightmare" href="/chapter-five"
 					 target="_blank">Chapter Five</a> we take on housing debt—the history and development of the housing bubble to its crash in 2008, as
 					well as the shady tactics employed by mortgagees to profit from low-income individuals’ misfortunes. We discuss our
 					taxation system in
-					<a title="Chapter Six. Tax Debt: The Certainty of Debt and Taxes" href="/drom/chapter-six" target="_blank">Chapter Six</a>, including an analysis of who benefits and who loses out, as well as the financial distress taxes bring
+					<a title="Chapter Six. Tax Debt: The Certainty of Debt and Taxes" href="/chapter-six" target="_blank">Chapter Six</a>, including an analysis of who benefits and who loses out, as well as the financial distress taxes bring
 					to some of the more vulnerable people in society. We also, of course, discuss the IRS and how it can affect you if you
 					don’t pay your taxes. The next two chapters (
 					<i>
-						<a title="Chapter Seven. Fringe Finance Transaction Products and Services: Making Bank on the Unbanked" href="/drom/chapter-seven"
+						<a title="Chapter Seven. Fringe Finance Transaction Products and Services: Making Bank on the Unbanked" href="/chapter-seven"
 						 target="_blank">Seven</a> and
-						<a title="Chapter Eight. Fringe Finance Credit Products and Services: Credit for the Precariat" href="/drom/chapter-eight"
+						<a title="Chapter Eight. Fringe Finance Credit Products and Services: Credit for the Precariat" href="/chapter-eight"
 						 target="_blank">Eight</a>
 					</i>) delve into the fringe finance industry: prepaid cards, check-cashing outlets, and various forms of predatory lending
 					geared toward the “unbanked” and “underbanked”—those who live without mainstream bank accounts and those who utilize
 					both traditional and “alternative” financial services. In
-					<a title="Chapter Nine. Debt Collection: Don’t Feed the Vultures" href="/drom/chapter-nine" target="_blank">Chapter Nine</a>, with debt collection, we get into the more ‘abstract’ ideas surrounding debt. This chapter will not
+					<a title="Chapter Nine. Debt Collection: Don’t Feed the Vultures" href="/chapter-nine" target="_blank">Chapter Nine</a>, with debt collection, we get into the more ‘abstract’ ideas surrounding debt. This chapter will not
 					only teach you about the debt collection industry, its dirty practices, and its legal limits, but also how to fight
 					back against harassment and intimidation from collectors. If you are thinking about declaring bankruptcy,
-					<a title="Chapter Ten. Bankruptcy: It’s Better Than Nothing" href="/drom/chapter-ten" target="_blank">Chapter Ten</a> might prove useful. We discuss the different chapters of bankruptcy as well as the historical development
+					<a title="Chapter Ten. Bankruptcy: It’s Better Than Nothing" href="/chapter-ten" target="_blank">Chapter Ten</a> might prove useful. We discuss the different chapters of bankruptcy as well as the historical development
 					of debt forgiveness through bankruptcy. We also highlight the circumstances under which bankruptcy is a wise or unwise
 					strategy.
-					<a title="Chapter Eleven. Strategies for Survival: Living on the Margins of the Debt System" href="/drom/chapter-eleven"
+					<a title="Chapter Eleven. Strategies for Survival: Living on the Margins of the Debt System" href="/chapter-eleven"
 					 target="_blank">Chapter Eleven</a> goes through some of the many ways you can live without necessarily being on the “financial grid.”
 					Recognizing that some people do or want to live without using any of the financial services mentioned in the rest of
 					the manual, we have provided some strategies to living in the margins of this exploitative system. Municipal and State
 					Debt (
-					<a title="Chapter Twelve. Municipal and State Debt: Crushing Debt from Above" href="/drom/chapter-twelve" target="_blank">
+					<a title="Chapter Twelve. Municipal and State Debt: Crushing Debt from Above" href="/chapter-twelve" target="_blank">
 						<i>Chapter Twelve</i>
 					</a>) and National Debt (
-					<a title="Chapter Thirteen. National Debt: The Politics of Scarcity and Control" href="/drom/chapter-thirteen" target="_blank">
+					<a title="Chapter Thirteen. National Debt: The Politics of Scarcity and Control" href="/chapter-thirteen" target="_blank">
 						<i>Chapter Thirteen</i>
 					</a>) are affected by each other and each affects individuals. In these chapters you will see how the effects of sovereign
 					debt crises and municipal budget cuts interrelate and penetrate our individual lives.
-					<a title="Chapter Fourteen. Climate Debt: An Overdue Balance" href="/drom/chapter-fourteen" target="_blank">Chapter Fourteen</a>, Climate Debt, discusses and analyzes how climate change, industrial growth, and capitalism relate
+					<a title="Chapter Fourteen. Climate Debt: An Overdue Balance" href="/chapter-fourteen" target="_blank">Chapter Fourteen</a>, Climate Debt, discusses and analyzes how climate change, industrial growth, and capitalism relate
 					to one another, causing a strict divide in the balance of wealth and power. This all paints a pretty bleak picture,
 					but it is not one without hope. The final chapter, Prospects for Change (
-					<a title="Chapter Fifteen. Prospects for Change: Join the Resistance!" href="/drom/chapter-fifteen" target="_blank">C
+					<a title="Chapter Fifteen. Prospects for Change: Join the Resistance!" href="/chapter-fifteen" target="_blank">C
 						<i>hapter Fifteen</i>
 					</a>), envisions a more mass-based approach to the individual and collective problems this manual addresses and invites
 					you, the reader, to critically engage with the questions we ask in order build a grassroots debtors’ movement. Prospects
@@ -795,9 +791,9 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 	<!-- this is where we put our custom functions -->
-	<script src="/drom/static/_/js/jquery.jpanelmenu.min.js"></script>
-	<script src="/drom/static/_/js/drom.js"></script>
-	<script src="/drom/static/_/js/functions.js"></script>
+	<script src="/static/_/js/jquery.jpanelmenu.min.js"></script>
+	<script src="/static/_/js/drom.js"></script>
+
 
 
 	<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>

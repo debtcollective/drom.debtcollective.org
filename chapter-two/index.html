@@ -32,14 +32,14 @@
 	<meta name="DC.creator" content="Folks from Strike Debt">
 
 	<!--  Mobile Viewport meta tag
-	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
 	device-width : Occupy full width of the screen in its current orientation
 	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
 	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width -->
 	<!-- Uncomment to use; use thoughtfully!-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<link rel="apple-touch-icon" href="http://strikedebt.org/wp-content/themes/strikedebt/_/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="http://strikedebt.org/static/_/img/apple-touch-icon.png">
 	<!-- The is the icon for iOS's Web Clip.
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
@@ -50,18 +50,16 @@
 	<script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
 
 	<!-- CSS: screen, mobile & print are all in the same file -->
-	<link rel="stylesheet" href="/drom/static/style.css">
-	<link rel="stylesheet" href="/drom/static/icons.css">
-	<link rel="stylesheet" href="/drom/static/drom.css">
-
-	<link rel="pingback" href="http://strikedebt.org/xmlrpc.php" />
+	<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/icons.css">
+	<link rel="stylesheet" href="/static/drom.css">
 
 
-	<link rel="alternate" type="application/rss+xml" title="Strike Debt! &raquo; Feed" href="../../feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Strike Debt! &raquo; Comments Feed" href="../../comments/feed/index.html"
-	/>
-	<link rel="alternate" type="application/rss+xml" title="Strike Debt! &raquo; Chapter Two Comments Feed" href="/drom/chapter-two/feed/"
-	/>
+
+
+
+
+
 	<script type="text/javascript">
 		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/", "ext": ".png", "source": { "concatemoji": "http:\/\/strikedebt.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.14" } };
 		!function (a, b, c) { function d(a) { var c, d, e, f = b.createElement("canvas"), g = f.getContext && f.getContext("2d"), h = String.fromCharCode; return g && g.fillText ? (g.textBaseline = "top", g.font = "600 32px Arial", "flag" === a ? (g.fillText(h(55356, 56806, 55356, 56826), 0, 0), f.toDataURL().length > 3e3) : "diversity" === a ? (g.fillText(h(55356, 57221), 0, 0), c = g.getImageData(16, 16, 1, 1).data, g.fillText(h(55356, 57221, 55356, 57343), 0, 0), c = g.getImageData(16, 16, 1, 1).data, e = c[0] + "," + c[1] + "," + c[2] + "," + c[3], d !== e) : ("simple" === a ? g.fillText(h(55357, 56835), 0, 0) : g.fillText(h(55356, 57135), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0])) : !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g; c.supports = { simple: d("simple"), flag: d("flag"), unicode8: d("unicode8"), diversity: d("diversity") }, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
@@ -80,10 +78,10 @@
 			padding: 0 !important;
 		}
 	</style>
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js?ver=4.4.14'></script>
-	<link rel='https://api.w.org/' href='../../wp-json/index.html' />
 
-	<link rel="stylesheet" href="/drom/static/last-css-loaded.css">
+
+
+	<link rel="stylesheet" href="/static/last-css-loaded.css">
 
 </head>
 
@@ -94,11 +92,11 @@
 			<a class="menu-trigger">
 				<span class="hamburger"></span>Menu</a>
 
-			<a href="/drom" id="project-of">
-				<img src="/drom/static/_/drom_square.png" alt="Strike Debt!" id="title" /> A Project of Strike Debt </a>
+			<a href="/" id="project-of">
+				<img src="/static/_/drom_square.png" alt="Strike Debt!" id="title" /> A Project of Strike Debt </a>
 
 			<h3>
-				<a href="/drom">The Debt Resisters&rsquo; Operations Manual</a>
+				<a href="/">The Debt Resisters&rsquo; Operations Manual</a>
 			</h3>
 		</div>
 
@@ -109,72 +107,72 @@
 
 		<ol>
 			<li>
-				<a href="/drom/introduction">
+				<a href="/introduction">
 					<span class="chapter-num">Introduction</span>Debt Rules Everything Around Me</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-one">
+				<a href="/chapter-one">
 					<span class="chapter-num">Chapter One</span>Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-two">
+				<a href="/chapter-two">
 					<span class="chapter-num">Chapter Two</span>Credit Card and Automobile Debt: On the Road to Nowhere</a>
 			</li>
 			<div id="currentSubmenu"></div>
 			<li>
-				<a href="/drom/chapter-three">
+				<a href="/chapter-three">
 					<span class="chapter-num">Chapter Three</span>Medical Debt: America’s Sick Creation</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-four">
+				<a href="/chapter-four">
 					<span class="chapter-num">Chapter Four</span>Student Debt: Foreclosing on the Future</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-five">
+				<a href="/chapter-five">
 					<span class="chapter-num">Chapter Five</span>Housing Debt: How the American Dream Became a Bait-and-Switch Nightmare</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-six">
+				<a href="/chapter-six">
 					<span class="chapter-num">Chapter Six</span>Tax Debt: The Certainty of Debt and Taxes</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-seven">
+				<a href="/chapter-seven">
 					<span class="chapter-num">Chapter Seven</span>Fringe Finance Transaction Products and Services: Making Bank on the Unbanked</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-eight">
+				<a href="/chapter-eight">
 					<span class="chapter-num">Chapter Eight</span>Fringe Finance Credit Products and Services: Credit for the Precariat</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-nine">
+				<a href="/chapter-nine">
 					<span class="chapter-num">Chapter Nine</span>Debt Collection: Don’t Feed the Vultures</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-ten">
+				<a href="/chapter-ten">
 					<span class="chapter-num">Chapter Ten</span>Bankruptcy: It’s Better Than Nothing</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-eleven">
+				<a href="/chapter-eleven">
 					<span class="chapter-num">Chapter Eleven</span>Strategies for Survival: Living on the Margins of the Debt System</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-twelve">
+				<a href="/chapter-twelve">
 					<span class="chapter-num">Chapter Twelve</span>Municipal and State Debt: Crushing Debt from Above</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-thirteen">
+				<a href="/chapter-thirteen">
 					<span class="chapter-num">Chapter Thirteen</span>National Debt: The Politics of Scarcity and Control</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-fourteen">
+				<a href="/chapter-fourteen">
 					<span class="chapter-num">Chapter Fourteen</span>Climate Debt: An Overdue Balance</a>
 			</li>
 			<li>
-				<a href="/drom/chapter-fifteen">
+				<a href="/chapter-fifteen">
 					<span class="chapter-num">Chapter Fifteen</span>Prospects for Change: Join the Resistance!</a>
 			</li>
 			<li>
-				<a href="/drom/glossary">
+				<a href="/glossary">
 					<span class="chapter-num">Glossary</span>
 				</a>
 			</li>
@@ -194,11 +192,11 @@
 		<nav class="chapters" id="side">
 
 
-			<a href="/drom/chapter-one" class="previous">
+			<a href="/chapter-one" class="previous">
 				<i class="icon-arrow-left"></i>
 				<span class="chapter-num">Chapter One</span>Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt</a>
 
-			<a href="/drom/chapter-three" class="next">
+			<a href="/chapter-three" class="next">
 				<i class="icon-arrow-right"></i>
 				<span class="chapter-num">Chapter Three</span>Medical Debt: America’s Sick Creation</a>
 
@@ -275,7 +273,7 @@
 					<i>Credit Card Nation</i>, “[a] carefully guarded secret of the industry is that about a quarter of cardholders have accounted
 					for almost two-thirds of interest and penalty-fee revenues. Nearly
 					<a title="“Five Myths about America’s Credit Card Debt”" href="http://tinyurl.com/DROMManning" target="_blank">half of all credit card accounts</a> do not generate finance and fee revenues.”
-					<a title="" href="/drom/chapter-two#_ftn6">
+					<a title="" href="/chapter-two#_ftn6">
 						<br />
 					</a>
 				</p>
@@ -290,7 +288,7 @@
 					the United States
 					<a title="&quot;Enhanced Consumer Financial Protection After the Financial Crisis&quot;" href="http://tinyurl.com/DROMLevitin"
 					 target="_blank">over $12 billion a year</a>.
-					<a title="" href="/drom/chapter-two#_ftn7">
+					<a title="" href="/chapter-two#_ftn7">
 						<br />
 					</a>
 				</p>
@@ -301,7 +299,7 @@
 					<a title="“H.R. 627—111th Congress: Credit Card Accountability Responsibility and Disclosure Act of 2009”" href="http://tinyurl.com/DROMCARD"
 					 target="_blank">Credit Card Accountability Responsibility and Disclosure (CARD) Act</a>, which aimed to “establish fair and transparent
 					practices relating to the extension of credit.”
-					<a title="" href="/drom/chapter-two#_ftn8">
+					<a title="" href="/chapter-two#_ftn8">
 						<br />
 					</a>
 				</p>
@@ -311,7 +309,7 @@
 					carriers went from $475 billion to more than $1.9 trillion. Late fees have risen an average of 160% and
 					<a title="“Credit Cards: Increased Complexity in Rates and Fees Heightens Need for More Effective Disclosures to Consumers”"
 					 href="http://tinyurl.com/DROMGAO" target="_blank">over-limit fees have risen an average of 115%</a> over a similar period (1990–2005).
-					<a title="" href="/drom/chapter-two#_ftn10">
+					<a title="" href="/chapter-two#_ftn10">
 						<br />
 					</a>
 				</p>
@@ -335,7 +333,7 @@
 					thousand credit cards; the relationship between credit scores, income, and credit limits indicated that higher credit
 					scores get you higher credit limits, regardless of income. Low credit scores, no matter your income,
 					<a title="“How a Credit Card Limit Is Determined”" href="http://tinyurl.com/DROMCK" target="_blank">keep credit limits low</a>.
-					<a title="" href="/drom/chapter-two#_ftn12">
+					<a title="" href="/chapter-two#_ftn12">
 						<br />
 					</a>
 				</p>
@@ -363,7 +361,7 @@
 					to foot the bill. The CARD Act restricts extensions of credit to those under twenty-one unless they have a cosigner
 					or a proven means of income. Credit card companies are
 					<a title="“What the Credit Card Reform Law Means to You”" href="http://tinyurl.com/DROMPrater" target="_blank">no longer allowed to hand out free gifts</a> at or near colleges or college-sponsored events.
-					<a title="" href="/drom/chapter-two#_ftn15">
+					<a title="" href="/chapter-two#_ftn15">
 						<br />
 					</a>
 				</p>
@@ -390,7 +388,7 @@
 					the risks. This involves looking into the future, which always makes things more complicated and multiplies the “unknowns.”
 					Start by finding out where you currently stand. Get your free credit report (
 					<em>see</em>
-					<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/drom/chapter-one"
+					<a title="Chapter One. Credit Scores and Consumer Reporting Agencies: Surveillance and the Vicious Cycle of Debt" href="/chapter-one"
 					 target="_blank">
 						<i>Chapter One</i>
 					</a>) and make sure it’s accurate.</p>
@@ -420,7 +418,7 @@
 					to judges who oversee the cases.” Lenders are “churning out lawsuits without regard for accuracy, and improperly collecting
 					debts from consumers.” One judge told the paper that he suspected a full
 					<a title="“Problems Riddle Moves to Collect Credit Card Debt”" href="http://tinyurl.com/DROMSilver5" target="_blank">90% of lawsuits</a> brought by credit card companies were “flawed and can’t prove the person owes the debt.”
-					<a title="" href="/drom/chapter-two#_ftn18">
+					<a title="" href="/chapter-two#_ftn18">
 						<br />
 					</a>
 				</p>
@@ -465,7 +463,7 @@
 				<p>Declaring bankruptcy is an alternative to going into default. When you declare bankruptcy, credit card debts may be wiped
 					out or lessened. However, it is a complex process that can backfire in many cases. In addition, bankruptcy will affect
 					your credit rating for the next seven to ten years. If you are thinking of declaring bankruptcy, refer to
-					<a title="Chapter Ten. Bankruptcy: It’s Better Than Nothing" href="/drom/chapter-ten" target="_blank">Chapter Ten</a> of this manual. The statute of limitations on defaults—the amount of time creditors or collectors have
+					<a title="Chapter Ten. Bankruptcy: It’s Better Than Nothing" href="/chapter-ten" target="_blank">Chapter Ten</a> of this manual. The statute of limitations on defaults—the amount of time creditors or collectors have
 					after you default to try to get it back legally—differs from state to state, from as little as three years to as many
 					as ten. But after it’s over, you’re entirely off the hook and it’s easy to wipe the default off your record. Which option
 					to choose will vary according to your individual circumstances. Try to get all information about the different possibilities
@@ -480,8 +478,7 @@
 					out all the possible legal ramifications, deem this acceptable, then go ahead. Consider that for some, going “off the
 					financial grid” is an easier way to live (
 					<i>see
-						<a title="Chapter Eleven. Strategies for Survival: Living on the Margins of the Debt System" href="/drom/chapter-eleven"
-						 target="_blank">Chapter Eleven</a>
+						<a title="Chapter Eleven. Strategies for Survival: Living on the Margins of the Debt System" href="/chapter-eleven" target="_blank">Chapter Eleven</a>
 					</i>).</p>
 				<h3>Resisting the credit card industry</h3>
 				<p>Unlike student debt, a movement against credit card debt has yet to form. Launching such a movement is one of the aims
@@ -495,7 +492,7 @@
 					on the contracts, the bank signed off on them without reading them. Two years later, due to overdue payments on a balance
 					of $575 in rubles, Agarkov’s card was terminated. Agarkov later decided to
 					<a title="“700k Windfall: Russian Man Outwits Bank with Handwritten Credit Contract”" href="http://tinyurl.com/DROMRT" target="_blank">sue Tinkoff Credit Systems</a> for violation of contract, and was awarded $727,000 in rubles.
-					<a title="" href="/drom/chapter-two#_ftn20">
+					<a title="" href="/chapter-two#_ftn20">
 						<br />
 					</a>
 				</p>
@@ -556,7 +553,7 @@
 					<a title="“Oil, Guns, and Military Bases: The U.S. in Africa”" href="http://tinyurl.com/DROMMansur" target="_blank">rapid military expansion</a> all over the world to feed our dependence on oil. And of course, car accidents are responsible
 					for well over
 					<a title="“Traffic Safety Facts: 2010 Data”" href="http://tinyurl.com/DROMNHTSA" target="_blank">thirty thousand deaths a year</a> in the United States.
-					<a title="" href="/drom/chapter-two#_ftn33">
+					<a title="" href="/chapter-two#_ftn33">
 						<br />
 					</a>
 				</p>
@@ -744,9 +741,9 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 	<!-- this is where we put our custom functions -->
-	<script src="/drom/static/_/js/jquery.jpanelmenu.min.js"></script>
-	<script src="/drom/static/_/js/drom.js"></script>
-	<script src="/drom/static/_/js/functions.js"></script>
+	<script src="/static/_/js/jquery.jpanelmenu.min.js"></script>
+	<script src="/static/_/js/drom.js"></script>
+
 
 
 	<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
